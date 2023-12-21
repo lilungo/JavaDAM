@@ -140,7 +140,7 @@ public class EjerciciosCondicionales {
 	public static void ej7() {
 		
 		int malo = 0.0;
-		int medio = 0.2;
+		int medio = 0.4;
 		int bien = 0.6;
 		Scanner scanner = new  Scanner(System.in);
 		
