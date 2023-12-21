@@ -1,6 +1,7 @@
 package EjerciciosCondicionales;
 
 
+
 import java.util.Scanner;
 
 public class EjerciciosCondicionales {
@@ -12,7 +13,10 @@ public class EjerciciosCondicionales {
 	     //ej4();
 		//ej5();
 		//ej6();
-		ej7();
+		//ej7();
+		//ej8();
+		//ej9();
+		ej10();
 	}
 
 	public static void ej1() {
@@ -138,12 +142,95 @@ public class EjerciciosCondicionales {
 	}
 	
 	public static void ej7() {
+		Scanner scanner = new Scanner(System.in);
 		
-		int malo = 0.0;
-		int medio = 0.2;
-		int bien = 0.6;
-		Scanner scanner = new  Scanner(System.in);
+		System.out.println("Dime tu puntuación");
+		double score = scanner.nextDouble();
+		
+		int dinero = 2400;
+		
+		if (score == 0.0) {
+			System.out.println("El nivel es inaceptable");
+			System.out.println("Tu bono es: " +dinero);
+		} if (score == 0.4) {
+			System.out.println("El nivel es aceptable");
+			System.out.println("Tu bono es: " +dinero * 1.05);
+		} if (score == 0.6) {
+			System.out.println("El nivel es meritorio");
+			System.out.println("Tu bono es: " +dinero * 1.10);
+		} 
+		
+		scanner.close();
 		
 		
 	}
+	
+	public static void ej8() {
+		
+			Scanner scanner = new Scanner(System.in);
+			
+			System.out.println("Dime tu edad");
+			int edad = scanner.nextInt();
+			
+			if (edad < 4) {
+				System.out.println("Puedes entrar gratis");
+			} if (edad >=4 && edad <=18) {
+				System.out.println("Tienes que pagar 5$");
+			} else {
+				System.out.println("Tienes que pagar 10$");
+			} 
+			
+			scanner.close();
+	}
+	
+	public static void ej9() {
+		
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Quieres pizza vegetariana? Marca 1 si quieres y 2 si no");
+		
+		int respuesta = scanner.nextInt();
+		
+		if(respuesta==1) {
+			
+			System.out.println("Marca 1 si quieres pimiento y 2 si quieres tofu");
+			int respuestaVeg = scanner.nextInt();
+			
+		if (respuestaVeg==1) {
+			
+			System.out.println("Pizza vegetariana con tomate, mozarella y pimientos");
+		} else if (respuestaVeg == 2) {
+			
+			System.out.println("Pizza vegetariana con tomate, mozarella y tofu");
+		}else if (respuesta == 2) {
+			System.out.println("Pizza con carne, marca 1 si quieres Salami, 2 jamón y 3 salmón");
+			int respuestaCarne = scanner.nextInt();
+			
+			
+			if(respuestaCarne == 1) {
+				
+				System.out.println("Pizza de carne con tomte, mozarella y salami");
+			} else if(respuestaCarne == 2) {
+				
+				System.out.println("Pizza de carne con tomate, mozarella y jamón");
+			} else if (respuestaCarne == 3) {
+				
+				System.out.println("Pizza de carne con tomate, mozarella y salmón");
+			}
+				
+			
+			
+			}
+		scanner.close();
+		
+		}
+		
+		
+		
+	}
+	
+	public static void ej10() {
+		
+	}
+	
+	
 }
