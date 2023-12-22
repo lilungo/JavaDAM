@@ -11,12 +11,12 @@
     <fullyQualifiedTypeName name="javax.swing.plaf.TextUI"/>
     <fullyQualifiedTypeName name="javax.accessibility.AccessibleResourceBundle"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
-    <fullyQualifiedTypeName name="java.security.PublicKey"/>
     <fullyQualifiedTypeName name="java.lang.Void"/>
     <fullyQualifiedTypeName name="java.sql.ClientInfoStatus"/>
     <fullyQualifiedTypeName name="EjerciciosCondicionales.EjerciciosCondicionales"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.lang.Character"/>
+    <fullyQualifiedTypeName name="java.security.PublicKey"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>
