@@ -31,7 +31,7 @@ public static void main(String[] args) {
 private static void printGordo() {
 	for (int i = 0; i < 5; i++) {
 		
-		System.out.printf("Premio " + (i + 1) + " Âº: %05d \n", gordo[i]);
+		System.out.printf("Premio " + (i + 1) + "Âº: %05d \n", gordo[i]);
 		
 	}
 	
