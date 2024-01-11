@@ -2,5 +2,4 @@ INDEX VERSION 1.134+C:\Users\tinor\eclipse-workspace\.metadata\.plugins\org.ecli
 2602088973.index
 2389153605.index
 1865797976.index
-357869962.index
 2909034622.index
