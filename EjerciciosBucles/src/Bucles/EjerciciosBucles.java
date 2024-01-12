@@ -2,7 +2,9 @@ package Bucles;
 
 
 import java.text.DecimalFormat;
+import java.time.chrono.JapaneseChronology;
 import java.util.Scanner;
+import java.util.function.UnaryOperator;
 
 public class EjerciciosBucles {
 	
@@ -14,6 +16,10 @@ public class EjerciciosBucles {
 	//ej4();
 	//ej5();
 	//ej6();
+	//ej7();
+	//ej8();
+	ej9();
+	ej14();
 	}
 
 
@@ -203,4 +209,72 @@ public static void ej6() {
 	
 	scanner.close();
 }
+
+public static void ej7() {
+	
+	
+}
+
+
+public static void ej8() {
+	
+Scanner scanner = new Scanner(System.in);
+System.out.println("Altura de la piramide");
+double altura = scanner.nextInt();
+for (int i = 1; i<= altura; i++ ) {
+	System.out.println();
+	for (int j = 2 * i - 1; j >=1; j-=2) {
+		System.out.println(j + " ");
+		scanner.close();
+	}
+	
+}
+}
+
+public static void ej9() {
+	
+	Scanner scanner = new Scanner(System.in);
+	String contraseñaCorrecta = "Contraseña123";
+	while (true) {
+		System.out.println("Introduzcca la contraseña");
+		String contraseñaIntroducida = scanner.nextLine();
+		
+		if (contraseñaIntroducida.equals(contraseñaCorrecta)) {
+			break;
+			
+		} else {
+			System.out.println("La contraseña introducida es incorrecta");
+			scanner.close();
+		}
+	}
+}
+
+public static void ej14() {
+	
+	Scanner scanner = new Scanner(System.in);
+	
+	System.out.println("Escribe una vocal");
+	
+	while (true) {
+		String input = scanner.nextLine().toLowerCase();
+		
+		char caracter = input.charAt(0);
+		
+		if (caracter == 'a' || caracter == 'e' || caracter == 'i' || caracter == 'o' || caracter == 'u') {
+			System.out.println("Es vocal");
+			
+		}
+		else {
+			System.out.println("No es vocal");
+		}
+		
+		if(input.equals(" ")) {
+			System.out.println("Programa terminado");
+			break;
+		}
+	}
+	scanner.close();
+}
+
+
 }
