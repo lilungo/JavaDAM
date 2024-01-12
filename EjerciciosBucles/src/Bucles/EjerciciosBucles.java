@@ -2,9 +2,9 @@ package Bucles;
 
 
 import java.text.DecimalFormat;
-import java.time.chrono.JapaneseChronology;
+
 import java.util.Scanner;
-import java.util.function.UnaryOperator;
+
 
 public class EjerciciosBucles {
 	
