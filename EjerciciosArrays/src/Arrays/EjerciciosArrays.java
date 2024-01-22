@@ -12,7 +12,7 @@ public class EjerciciosArrays {
 
 public static void main(String[] args) {
 	
-	//ejercicio1();
+	ejercicio1();
 	//ejercicio2();
 	//ejercicio3();
 	
@@ -20,7 +20,7 @@ public static void main(String[] args) {
 	//ejercicio4(numerosGanadores[0], numerosGanadores[1], numerosGanadores[2]);
 	//ejercicio5();
 	//ejercicio6();
-	ejercicio7();
+	//ejercicio7();
 }
 
 //1- Escribir un programa que almacene las asignaturas de un curso (por

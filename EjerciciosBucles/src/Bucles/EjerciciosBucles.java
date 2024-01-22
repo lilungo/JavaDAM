@@ -18,7 +18,7 @@ public class EjerciciosBucles {
 	//ej6();
 	//ej7();
 	//ej8();
-	ej9();
+	//ej9();
 	ej14();
 	}
 
