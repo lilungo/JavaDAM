@@ -8,8 +8,6 @@
     <fullyQualifiedTypeName name="javax.lang.model.element.NestingKind"/>
     <fullyQualifiedTypeName name="javax.swing.plaf.TextUI"/>
     <fullyQualifiedTypeName name="javax.accessibility.AccessibleResourceBundle"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
-    <fullyQualifiedTypeName name="java.lang.Void"/>
     <fullyQualifiedTypeName name="java.sql.ClientInfoStatus"/>
     <fullyQualifiedTypeName name="EjerciciosCondicionales.EjerciciosCondicionales"/>
     <fullyQualifiedTypeName name="java.lang.Character"/>
@@ -31,4 +29,8 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.text.DecimalFormat"/>
+    <fullyQualifiedTypeName name="javax.management.loading.PrivateClassLoader"/>
+    <fullyQualifiedTypeName name="java.lang.Void"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.lang.NegativeArraySizeException"/>
 </qualifiedTypeNameHistroy>
